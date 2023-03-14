@@ -12,11 +12,7 @@
 }
 
 /******* AVATAR ********/
-
-
-
 .avatar{
-    /* margin-top: 70px; */
     background-color: #1abc9c;
 }
 
@@ -29,6 +25,12 @@
     height: 130px;
     width: 130px;
     padding-top: 10px;
+}
+
+.avatar .lista{
+    font-size: 13px;
+    color: white;
+    padding-bottom: 30px;
 }
 
 .star{
@@ -70,9 +72,31 @@
     background-color: #2C3E50;
     top: 11.5px;
 }
+footer section{
+    background-color: #3A546D;
 
-.prova{
-    background-color: coral;
+    
+}
+
+.social{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 4px;
+}
+
+.text-white a{
+    color: #1abc9c;
+}
+
+.text-white{
+    margin-bottom: 30px;
+}
+
+
+.footer-scuro{
+    background-color: #2C3E50;
 }
 
 
