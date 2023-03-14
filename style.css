@@ -1,0 +1,80 @@
+
+.navbar{
+    background-color: #2C3E50;
+}
+
+.navbar a, .navbar-toggler-icon{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+/******* AVATAR ********/
+
+
+
+.avatar{
+    /* margin-top: 70px; */
+    background-color: #1abc9c;
+}
+
+.avatar h1{
+    margin: 10px 0 10px 0;
+
+}
+
+.box-avatar{
+    height: 130px;
+    width: 130px;
+    padding-top: 10px;
+}
+
+.star{
+    width: 12rem;
+}
+
+.fa-star{
+    color: white;
+}
+
+.line{
+    height: 3px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: white;
+    top: 11.5px;
+}
+
+.after{
+    left: 7px;
+}
+
+.before{
+    right: 7px;
+}
+
+.col-12{
+    margin: 10px 0;
+}
+
+.black-star{
+    color: #2C3E50;
+}
+
+.line-black{
+    height: 3px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    top: 11.5px;
+}
+
+.prova{
+    background-color: coral;
+}
+
+
+
+

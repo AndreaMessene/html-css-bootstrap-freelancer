@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>    
+
+    <nav class="navbar bg-cyan-800">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">START BOOSTRAP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>  <!-- box-avatar  -->
+
+    <header>
+        <div class="container-fluid text-center avatar">
+            <div class="d-flex justify-content-center">
+                <img class="w-25" src="./assets/img/avatar.svg" width= alt="">
+            </div>
+            <h1 class="fs-5">START BOOTSRAP</h1>
+            <div class="d-flex justify-content-center pb-3">
+                <div class="position-relative star">
+                    <div class="after line position-absolute"></div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="before line position-absolute "></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container text-center">
+
+            <h2 class="text-center pt-3">PORTFOLIO</h2>
+
+            <div class="d-flex justify-content-center mb-3">
+                <div class="position-relative star">
+                    <div class="after line-black position-absolute"></div>
+                    <div>
+                        <i class="fa-solid fa-star black-star"></i>
+                    </div>
+                    <div class="before line-black position-absolute "></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="rounded" src="./assets/img/cabin.png" width="100%" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="rounded" src="./assets/img/cake.png" width="100%" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="rounded" src="./assets/img/circus.png" width="100%" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="rounded" src="./assets/img/game.png" width="100%" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="rounded" src="./assets/img/safe.png" width="100%" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="rounded" src="./assets/img/submarine.png" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+        <section class="avatar pt-4 pb-4">
+            <div class="container text-center">
+                <h2>
+                    ABOUT
+                </h2>
+
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="position-relative star">
+                        <div class="after line position-absolute"></div>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="before line position-absolute "></div>
+                    </div>
+                </div>
+
+                <div class="container">   
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-start">
+                            <p>Lorem ipsum dolor sit amet consectetur   adipisicing elit. Sapiente eos ad veniam impedit  omnis nesciunt et at commodi blanditiis, optio   tenetur, suscipit voluptatibus harum laboriosam   fuga magnam eaque ipsam vero?</p>
+                        </div>
+
+                        <div class="col-12 col-md-6 text-start">
+                            <p>Lorem ipsum dolor sit amet consectetur   adipisicing elit. Sapiente eos ad veniam impedit  omnis nesciunt et at commodi blanditiis, optio   tenetur, suscipit voluptatibus harum laboriosam   fuga magnam eaque ipsam vero?</p>
+                        </div>                        
+                    </div>
+                    <a href="" class="btn btn-outline-primary w-35"> <i class="fa-solid fa-download"></i> Download</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="prova">
+            <div class="container text-center">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="position-relative star">
+                        <div class="after line-black position-absolute"></div>
+                        <div>
+                            <i class="fa-solid fa-star black-star"></i>
+                        </div>
+                        <div class="before line-black position-absolute "></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- boostrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
